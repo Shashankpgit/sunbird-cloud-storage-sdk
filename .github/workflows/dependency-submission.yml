@@ -27,7 +27,7 @@ jobs:
 
       # Maven requires a build to resolve the full transitive dependency tree;
       # setup-java with cache: maven avoids re-downloading the local repo on reruns
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           java-version: '11'
           distribution: 'temurin'
