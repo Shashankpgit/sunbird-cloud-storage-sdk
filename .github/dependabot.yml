@@ -8,8 +8,8 @@ updates:
     schedule:
       interval: "daily"
       day: "monday"
-      time: "13:30"
-      timezone: "UTC"
+      time: "13:37"
+      timezone: "Asia/Kolkata"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
@@ -45,8 +45,8 @@ updates:
     schedule:
       interval: "daily"
       day: "monday"
-      time: "13:30"
-      timezone: "UTC"
+      time: "13:37"
+      timezone: "Asia/Kolkata"
     labels:
       - "dependencies"
     commit-message:
