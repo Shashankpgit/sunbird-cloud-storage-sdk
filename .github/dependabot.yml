@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "daily"
       day: "monday"
-      time: "13:37"
+      time: "15:36"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 5
     labels:
@@ -45,7 +45,7 @@ updates:
     schedule:
       interval: "daily"
       day: "monday"
-      time: "13:37"
+      time: "15:36"
       timezone: "Asia/Kolkata"
     labels:
       - "dependencies"
