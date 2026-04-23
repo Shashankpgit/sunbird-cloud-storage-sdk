@@ -36,4 +36,4 @@ jobs:
       # Submits a dependency snapshot so Dependabot can alert on transitive deps,
       # not just the direct dependencies declared in pom.xml
       - name: Submit Maven dependency snapshot
-        uses: advanced-security/maven-dependency-submission-action@v4
+        uses: advanced-security/maven-dependency-submission-action@v5
