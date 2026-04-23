@@ -23,7 +23,7 @@ jobs:
   submit-maven-dependencies:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # Maven requires a build to resolve the full transitive dependency tree;
       # setup-java with cache: maven avoids re-downloading the local repo on reruns
