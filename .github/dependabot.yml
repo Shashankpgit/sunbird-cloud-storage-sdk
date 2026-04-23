@@ -1,0 +1,51 @@
+version: 2
+updates:
+  # Maven — root pom.xml is the parent POM that manages versions for all 5 modules.
+  # A single block at "/" is sufficient; Dependabot resolves child modules from there.
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      # Each CSP's official SDK ships many sub-artifacts — group them to one PR each
+      aws-sdk:
+        patterns:
+          - "software.amazon.awssdk:*"
+      azure-sdk:
+        patterns:
+          - "com.azure:*"
+      gcp-sdk:
+        patterns:
+          - "com.google.cloud:*"
+          - "com.google.auth:*"
+      oci-sdk:
+        patterns:
+          - "com.oracle.oci.sdk:*"
+      jackson:
+        patterns:
+          - "com.fasterxml.jackson.*:*"
+      testing:
+        patterns:
+          - "org.junit.*:*"
+          - "org.mockito:*"
+
+  # GitHub Actions — keep checkout, setup-java, and maven-settings-action current
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "chore(ci)"
