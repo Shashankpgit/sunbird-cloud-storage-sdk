@@ -9,6 +9,9 @@ on:
     branches: [v1.4.10]
     paths:
       - "**/pom.xml"
+  # Runs daily at 2:50 PM IST (09:20 UTC)
+  schedule:
+    - cron: '18 9 * * *'
   # Manual trigger for initial setup or ad-hoc refresh
   workflow_dispatch:
 
