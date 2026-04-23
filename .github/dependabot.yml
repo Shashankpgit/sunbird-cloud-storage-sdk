@@ -6,10 +6,10 @@ updates:
     directory: "/"
     target-branch: "v1.4.10"
     schedule:
-      interval: "daily"
+      interval: "weekly"
       day: "monday"
-      time: "15:36"
-      timezone: "Asia/Kolkata"
+      time: "03:30"        # 30 min after dependency-submission workflow (03:00 UTC) so graph is fresh
+      timezone: "UTC"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
@@ -43,10 +43,10 @@ updates:
     directory: "/"
     target-branch: "v1.4.10"
     schedule:
-      interval: "daily"
+      interval: "weekly"
       day: "monday"
-      time: "15:36"
-      timezone: "Asia/Kolkata"
+      time: "03:30"
+      timezone: "UTC"
     labels:
       - "dependencies"
     commit-message:
