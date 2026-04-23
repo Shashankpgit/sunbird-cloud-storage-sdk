@@ -4,6 +4,7 @@ updates:
   # A single block at "/" is sufficient; Dependabot resolves child modules from there.
   - package-ecosystem: "maven"
     directory: "/"
+    target-branch: "v1.4.10"
     schedule:
       interval: "weekly"
       day: "monday"
@@ -40,6 +41,7 @@ updates:
   # GitHub Actions — keep checkout, setup-java, and maven-settings-action current
   - package-ecosystem: "github-actions"
     directory: "/"
+    target-branch: "v1.4.10"
     schedule:
       interval: "weekly"
       day: "monday"
