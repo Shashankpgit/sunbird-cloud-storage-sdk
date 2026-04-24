@@ -22,7 +22,7 @@
         <azure.identity.version>1.11.0</azure.identity.version>
         <gcp.storage.version>2.30.0</gcp.storage.version>
         <oci.sdk.version>3.30.0</oci.sdk.version>
-        <tika.version>2.9.0</tika.version>
+        <tika.version>3.3.0</tika.version>
         <jackson.version>2.15.3</jackson.version>
         <slf4j.version>2.0.9</slf4j.version>
         <junit5.version>5.10.1</junit5.version>
