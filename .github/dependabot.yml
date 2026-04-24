@@ -10,7 +10,7 @@ updates:
       day: "monday"
       time: "03:30"        # 30 min after dependency-submission workflow (03:00 UTC) so graph is fresh
       timezone: "UTC"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
     labels:
       - "dependencies"
     commit-message:
