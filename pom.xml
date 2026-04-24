@@ -18,8 +18,8 @@
 
         <!-- SDK versions managed centrally -->
         <aws.sdk.version>2.25.0</aws.sdk.version>
-        <azure.storage.blob.version>12.25.0</azure.storage.blob.version>
-        <azure.identity.version>1.11.0</azure.identity.version>
+        <azure.storage.blob.version>12.33.3</azure.storage.blob.version>
+        <azure.identity.version>1.18.2</azure.identity.version>
         <gcp.storage.version>2.30.0</gcp.storage.version>
         <oci.sdk.version>3.30.0</oci.sdk.version>
         <tika.version>2.9.0</tika.version>
